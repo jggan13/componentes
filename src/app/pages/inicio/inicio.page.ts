@@ -16,7 +16,8 @@ export class InicioPage implements OnInit {
     { icon: 'checkmark-circle-outline', name: 'Checkbox', redirectTo: '/check' },
     { icon: 'calendar', name: 'DateTime', redirectTo: '/date-time' },
     { icon: 'car', name: 'Fabs', redirectTo: '/fab' },
-    { icon: 'grid', name: 'Grid - Rows', redirectTo: '/grid' }
+    { icon: 'grid', name: 'Grid - Rows', redirectTo: '/grid' },
+    { icon: 'infinite', name: 'Infinite Scroll', redirectTo: '/infinite-scroll' }
   ];
 
   constructor() { }
