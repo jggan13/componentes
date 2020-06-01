@@ -20,7 +20,8 @@ export class InicioPage implements OnInit {
     { icon: 'infinite', name: 'Infinite Scroll', redirectTo: '/infinite-scroll' },
     { icon: 'hammer', name: 'Input - Forms', redirectTo: '/input' },
     { icon: 'list', name: 'Listas - Sliding', redirectTo: '/list' },
-    { icon: 'reorder-four', name: 'Listas - Reorder', redirectTo: '/list-reorder' }
+    { icon: 'reorder-four', name: 'Listas - Reorder', redirectTo: '/list-reorder' },
+    { icon: 'refresh-circle', name: 'Loading', redirectTo: '/loading' }
   ];
 
   constructor() { }
