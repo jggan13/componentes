@@ -14,7 +14,8 @@ export class InicioPage implements OnInit {
     { icon: 'radio-button-on', name: 'Botones y router', redirectTo: '/botones' },
     { icon: 'card', name: 'Cards', redirectTo: '/card' },
     { icon: 'checkmark-circle-outline', name: 'Checkbox', redirectTo: '/check' },
-    { icon: 'calendar', name: 'DateTime', redirectTo: '/date-time' }
+    { icon: 'calendar', name: 'DateTime', redirectTo: '/date-time' },
+    { icon: 'car', name: 'Fabs', redirectTo: '/fab' }
   ];
 
   constructor() { }
